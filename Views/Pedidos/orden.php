@@ -27,7 +27,7 @@
         <section id="sPedido" class="invoice">
           <div class="row mb-4">
             <div class="col-6">
-              <h2 class="page-header"><img src="<?= media(); ?>/tienda/images/logo.png" ></h2>
+              <h2 class="page-header"><img src="<?= media(); ?>/tienda/images/logotulogo2.png" ></h2>
             </div>
             <div class="col-6">
               <h5 class="text-right">Fecha: <?= $orden['fecha'] ?></h5>
@@ -36,13 +36,14 @@
           <div class="row invoice-info">
             <div class="col-4">
               <address><strong><?= NOMBRE_EMPESA; ?></strong><br>
-                <?= DIRECCION ?><br>
-                <?= TELEMPRESA ?><br>
-                <?= EMAIL_EMPRESA ?><br>
+                Dirección: <?= DIRECCION ?><br>
+                Télefono:<?= TELEMPRESA ?><br>
+                Correo: <?= EMAIL_EMPRESA ?><br>
                 <?= WEB_EMPRESA ?>
               </address>
             </div>
             <div class="col-4">
+               Datos del Cliente:
               <address><strong><?= $cliente['nombres'].' '.$cliente['apellidos'] ?></strong><br>
                 Envío: <?= $orden['direccion_envio']; ?><br>
                 Tel: <?= $cliente['telefono'] ?><br>

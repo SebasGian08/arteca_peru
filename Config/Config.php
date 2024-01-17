@@ -20,40 +20,40 @@
 	const SPM = ",";
 
 	//Simbolo de moneda
-	const SMONEY = "$";
-	const CURRENCY = "USD";
+	const SMONEY = "S/";
+	const CURRENCY = "SOLES";
 
 	//Api PayPal
 	//SANDBOX PAYPAL
-	const URLPAYPAL = "https://api-m.sandbox.paypal.com";
+	/* const URLPAYPAL = "https://api-m.sandbox.paypal.com";
 	const IDCLIENTE = "";
-	const SECRET = "";
+	const SECRET = ""; */
 	//LIVE PAYPAL
-	//const URLPAYPAL = "https://api-m.paypal.com";
-	//const IDCLIENTE = "";
-	//const SECRET = "";
+	const URLPAYPAL = "https://api-m.paypal.com";
+	const IDCLIENTE = "AenbHO7pPI7PEWitr-G7f0lWiuimXn6-xWwro0RsyyB-9Ov-Sd2SmgkjG8odkl8sBbSqhHYtXi7DlBnh";
+	const SECRET = "EFFiuixcRFEZFl8Z3QVCgskMrFJfy6o4Wo1zFxar87DAIQ4i2G3Zyb33-Cp-KjhMQM1_Cl9aDjlooX9h";
 
 	//Datos envio de correo
 	const NOMBRE_REMITENTE = "Tienda Virtual";
-	const EMAIL_REMITENTE = "no-reply@abelosh.com";
+	const EMAIL_REMITENTE = "no-reply@codware.com";
 	const NOMBRE_EMPESA = "Tienda Virtual";
-	const WEB_EMPRESA = "www.abelosh.com";
+	const WEB_EMPRESA = "Desarrollador por grupocodware";
 
-	const DESCRIPCION = "La mejor tienda en línea con artículos de moda.";
-	const SHAREDHASH = "TiendaVirtual";
+	const DESCRIPCION = "";
+	const SHAREDHASH = "Tienda Virtual";
 
 	//Datos Empresa
-	const DIRECCION = "Avenida las Américas Zona 13, Guatemala";
-	const TELEMPRESA = "+(502)78787845";
-	const WHATSAPP = "+50278787845";
-	const EMAIL_EMPRESA = "info@abelosh.com";
-	const EMAIL_PEDIDOS = "info@abelosh.com"; 
-	const EMAIL_SUSCRIPCION = "info@abelosh.com";
-	const EMAIL_CONTACTO = "info@abelosh.com";
+	const DIRECCION = "Lima,Perú";
+	const TELEMPRESA = "+51922183551";
+	const WHATSAPP = "+51922183551";
+	const EMAIL_EMPRESA = "grupocodware@gmail.com";
+	const EMAIL_PEDIDOS = "grupocodware@gmail.com"; 
+	const EMAIL_SUSCRIPCION = "grupocodware@gmail.com";
+	const EMAIL_CONTACTO = "grupocodware@gmail.com";
 
-	const CAT_SLIDER = "1,2,3";
-	const CAT_BANNER = "4,5,6";
-	const CAT_FOOTER = "1,2,3,4,5";
+	const CAT_SLIDER = "1,2,3"; //para el slider
+	const CAT_BANNER = "4,5,6,7,8,9"; //para las categorias banners
+	const CAT_FOOTER = "1,2,3,4,5"; //categorias footer
 
 	//Datos para Encriptar / Desencriptar
 	const KEY = 'abelosh';
@@ -92,14 +92,14 @@
 	const STATUS = array('Completo','Aprobado','Cancelado','Reembolsado','Pendiente','Entregado');
 
 	//Productos por página
-	const CANTPORDHOME = 8;
-	const PROPORPAGINA = 4;
+	const CANTPORDHOME = 20;
+	const PROPORPAGINA = 6;
 	const PROCATEGORIA = 4;
 	const PROBUSCAR = 4;
 
 	//REDES SOCIALES
-	const FACEBOOK = "https://www.facebook.com/abelosh";
-	const INSTAGRAM = "https://www.instagram.com/febel24/";
+	const FACEBOOK = "https://www.facebook.com/Codwareoficial";
+	const INSTAGRAM = "https://www.instagram.com/grupocodware/";
 	
 
  ?>

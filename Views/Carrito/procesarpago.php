@@ -83,7 +83,7 @@ $infoTerminos = !empty(getInfoPage(PTERMINOS)) ? getInfoPage(PTERMINOS)['conteni
   </div>
 </div>
 
- <br><br><br>
+ <br>
 <hr>
 	<!-- breadcrumb -->
 	<div class="container">

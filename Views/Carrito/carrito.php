@@ -1,7 +1,7 @@
 <?php 
 headerTienda($data);
 ?>
- <br><br><br>
+ <br>
 <hr>
 	<!-- breadcrumb -->
 	<div class="container">

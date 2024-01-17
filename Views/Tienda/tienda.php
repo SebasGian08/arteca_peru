@@ -71,9 +71,19 @@ $arrProductos = $data['productos'];
 								<a href="<?= base_url().'/tienda/producto/'.$arrProductos[$p]['idproducto'].'/'.$ruta; ?>" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									<?= $arrProductos[$p]['nombre'] ?>
 								</a>
+								<a class="stext-102 cl2 hov-cl1 trans-02 js-name-b2 p-b-6">
+                                    <?= $arrProductos[$p]['categoria'] ?>
+                                </a>
 								<span class="stext-105 cl3">
 									<?= SMONEY.formatMoney($arrProductos[$p]['precio']); ?>
 								</span>
+								<div class="rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
 							</div>
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#"

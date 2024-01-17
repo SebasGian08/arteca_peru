@@ -76,18 +76,18 @@
 			<div class="p-t-40">
 				<p class="stext-107 cl6 txt-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					<?= NOMBRE_EMPESA; ?> | <?= WEB_EMPRESA; ?> | <a href="https://colorlib.com" target="_blank">Colorlib</a>
+					<?= NOMBRE_EMPESA; ?> | <?= WEB_EMPRESA; ?>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
 		</div>
 	</footer>
 	<!-- Back to top -->
-	<div class="btn-back-to-top" id="myBtn">
+	<!-- <div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
 			<i class="zmdi zmdi-chevron-up"></i>
 		</span>
-	</div>
+	</div> -->
 	<script>
 	    const base_url = "<?= base_url(); ?>";
 		const smony = "<?= SMONEY; ?>";
